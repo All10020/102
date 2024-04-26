@@ -1,0 +1,9 @@
+repeat
+    wait()
+until game:IsLoaded() and game.Players.LocalPlayer.Character:FindFirstChild("FULLY_LOADED_CHAR")
+local timetoload = tick()
+
+-- // Variables
+local Players = game:GetService('Players')
+local Client = Players.LocalPlayer
+local CoreGui = game:GetService('CoreGui')
